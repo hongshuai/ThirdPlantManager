@@ -1,0 +1,872 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6974ECAD28D19CC7024FA6F0 /* libPods-YTThirdPlatformManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B397C4A6F5D2E88F15D49222 /* libPods-YTThirdPlatformManager.a */; };
+		85F1090D5865B0A9602FDE6C /* libPods-YTThirdPlatformManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B397C4A6F5D2E88F15D49222 /* libPods-YTThirdPlatformManager.a */; };
+		9C1FD15D1FA494B8009F10D2 /* UIImage+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1FD15B1FA494B8009F10D2 /* UIImage+Util.m */; };
+		9C1FD1601FA496DA009F10D2 /* NSData+NSJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1FD15F1FA496DA009F10D2 /* NSData+NSJSON.m */; };
+		9C1FD1631FA49740009F10D2 /* NetworkRequestUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1FD1621FA49740009F10D2 /* NetworkRequestUtil.m */; };
+		9C1FD1651FA4989E009F10D2 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C1FD1641FA4989E009F10D2 /* CoreMotion.framework */; };
+		9C1FD1691FA4C16E009F10D2 /* BaseTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1FD1681FA4C011009F10D2 /* BaseTestViewController.m */; };
+		9C1FD16A1FA54D76009F10D2 /* PTOrderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB6542A1FA492EE002A6EBF /* PTOrderModel.m */; };
+		9C1FD1701FA555A1009F10D2 /* NetworkRequestUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1FD1621FA49740009F10D2 /* NetworkRequestUtil.m */; };
+		9C1FD1711FA555A1009F10D2 /* PTWXManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3743041FA371160086E874 /* PTWXManager.m */; };
+		9C1FD1721FA555A1009F10D2 /* PTTencentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3742F61FA371160086E874 /* PTTencentManager.m */; };
+		9C1FD1731FA555A1009F10D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3742B41FA370F00086E874 /* ViewController.m */; };
+		9C1FD1741FA555A1009F10D2 /* PTWeiboManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3742FD1FA371160086E874 /* PTWeiboManager.m */; };
+		9C1FD1751FA555A1009F10D2 /* BaseTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1FD1681FA4C011009F10D2 /* BaseTestViewController.m */; };
+		9C1FD1761FA555A1009F10D2 /* PTWeiboRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3742FF1FA371160086E874 /* PTWeiboRequestHandler.m */; };
+		9C1FD1771FA555A1009F10D2 /* PTTencentRespManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3742FA1FA371160086E874 /* PTTencentRespManager.m */; };
+		9C1FD1781FA555A1009F10D2 /* PTAlipayRespManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3742E71FA371160086E874 /* PTAlipayRespManager.m */; };
+		9C1FD1791FA555A1009F10D2 /* UIImage+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1FD15B1FA494B8009F10D2 /* UIImage+Util.m */; };
+		9C1FD17A1FA555A1009F10D2 /* PTWXRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3743061FA371160086E874 /* PTWXRequestHandler.m */; };
+		9C1FD17B1FA555A1009F10D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3742B11FA370F00086E874 /* AppDelegate.m */; };
+		9C1FD17C1FA555A1009F10D2 /* PTBaseThirdPlatformManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3742EC1FA371160086E874 /* PTBaseThirdPlatformManager.m */; };
+		9C1FD17D1FA555A1009F10D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3742AE1FA370F00086E874 /* main.m */; };
+		9C1FD17E1FA555A1009F10D2 /* PTWXRespManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3743081FA371160086E874 /* PTWXRespManager.m */; };
+		9C1FD17F1FA555A1009F10D2 /* PTAlipayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3742E31FA371160086E874 /* PTAlipayManager.m */; };
+		9C1FD1801FA555A1009F10D2 /* PTThirdPlatformConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3742F01FA371160086E874 /* PTThirdPlatformConfigManager.m */; };
+		9C1FD1811FA555A1009F10D2 /* PTTencentRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3742F81FA371160086E874 /* PTTencentRequestHandler.m */; };
+		9C1FD1821FA555A1009F10D2 /* PTThirdPlatformObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3742F31FA371160086E874 /* PTThirdPlatformObject.m */; };
+		9C1FD1831FA555A1009F10D2 /* PTBaseThirdPlatformRespManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3742EE1FA371160086E874 /* PTBaseThirdPlatformRespManager.m */; };
+		9C1FD1841FA555A1009F10D2 /* PTOrderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB6542A1FA492EE002A6EBF /* PTOrderModel.m */; };
+		9C1FD1851FA555A1009F10D2 /* NSData+NSJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1FD15F1FA496DA009F10D2 /* NSData+NSJSON.m */; };
+		9C1FD1861FA555A1009F10D2 /* PTWeiboRespManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3743011FA371160086E874 /* PTWeiboRespManager.m */; };
+		9C1FD1871FA555A1009F10D2 /* PTAlipayRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3742E51FA371160086E874 /* PTAlipayRequestHandler.m */; };
+		9C1FD1891FA555A1009F10D2 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C1FD1641FA4989E009F10D2 /* CoreMotion.framework */; };
+		9C1FD18B1FA555A1009F10D2 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C3743231FA372200086E874 /* TencentOpenAPI.framework */; };
+		9C1FD18C1FA555A1009F10D2 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C37431C1FA372200086E874 /* AlipaySDK.framework */; };
+		9C1FD18E1FA555A1009F10D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C3742BB1FA370F00086E874 /* LaunchScreen.storyboard */; };
+		9C1FD18F1FA555A1009F10D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C3742B91FA370F00086E874 /* Assets.xcassets */; };
+		9C1FD1901FA555A1009F10D2 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9C37431B1FA372200086E874 /* AlipaySDK.bundle */; };
+		9C1FD1911FA555A1009F10D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C3742B61FA370F00086E874 /* Main.storyboard */; };
+		9C3461CD1FA9770400D1616E /* YTThirdPlatformManagerDeveloper-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C3461CC1FA9770400D1616E /* YTThirdPlatformManagerDeveloper-Info.plist */; };
+		9C3742AF1FA370F00086E874 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3742AE1FA370F00086E874 /* main.m */; };
+		9C3742B21FA370F00086E874 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3742B11FA370F00086E874 /* AppDelegate.m */; };
+		9C3742B51FA370F00086E874 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3742B41FA370F00086E874 /* ViewController.m */; };
+		9C3742B81FA370F00086E874 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C3742B61FA370F00086E874 /* Main.storyboard */; };
+		9C3742BA1FA370F00086E874 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C3742B91FA370F00086E874 /* Assets.xcassets */; };
+		9C3742BD1FA370F00086E874 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C3742BB1FA370F00086E874 /* LaunchScreen.storyboard */; };
+		9C3743091FA371160086E874 /* PTAlipayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3742E31FA371160086E874 /* PTAlipayManager.m */; };
+		9C37430A1FA371160086E874 /* PTAlipayRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3742E51FA371160086E874 /* PTAlipayRequestHandler.m */; };
+		9C37430B1FA371160086E874 /* PTAlipayRespManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3742E71FA371160086E874 /* PTAlipayRespManager.m */; };
+		9C37430C1FA371160086E874 /* PTBaseThirdPlatformManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3742EC1FA371160086E874 /* PTBaseThirdPlatformManager.m */; };
+		9C37430D1FA371160086E874 /* PTBaseThirdPlatformRespManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3742EE1FA371160086E874 /* PTBaseThirdPlatformRespManager.m */; };
+		9C37430E1FA371160086E874 /* PTThirdPlatformConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3742F01FA371160086E874 /* PTThirdPlatformConfigManager.m */; };
+		9C37430F1FA371160086E874 /* PTThirdPlatformObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3742F31FA371160086E874 /* PTThirdPlatformObject.m */; };
+		9C3743101FA371160086E874 /* PTTencentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3742F61FA371160086E874 /* PTTencentManager.m */; };
+		9C3743111FA371160086E874 /* PTTencentRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3742F81FA371160086E874 /* PTTencentRequestHandler.m */; };
+		9C3743121FA371160086E874 /* PTTencentRespManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3742FA1FA371160086E874 /* PTTencentRespManager.m */; };
+		9C3743131FA371160086E874 /* PTWeiboManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3742FD1FA371160086E874 /* PTWeiboManager.m */; };
+		9C3743141FA371160086E874 /* PTWeiboRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3742FF1FA371160086E874 /* PTWeiboRequestHandler.m */; };
+		9C3743151FA371160086E874 /* PTWeiboRespManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3743011FA371160086E874 /* PTWeiboRespManager.m */; };
+		9C3743161FA371160086E874 /* PTWXManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3743041FA371160086E874 /* PTWXManager.m */; };
+		9C3743171FA371160086E874 /* PTWXRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3743061FA371160086E874 /* PTWXRequestHandler.m */; };
+		9C3743181FA371160086E874 /* PTWXRespManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3743081FA371160086E874 /* PTWXRespManager.m */; };
+		9C3743241FA372200086E874 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9C37431B1FA372200086E874 /* AlipaySDK.bundle */; };
+		9C3743251FA372200086E874 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C37431C1FA372200086E874 /* AlipaySDK.framework */; };
+		9C3743271FA372200086E874 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C3743231FA372200086E874 /* TencentOpenAPI.framework */; };
+		CF4E7703F4B911938A4FDCB6 /* libPods-YTThirdPlatformManagerDeveloper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35C990F1E0096242C755777E /* libPods-YTThirdPlatformManagerDeveloper.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35C990F1E0096242C755777E /* libPods-YTThirdPlatformManagerDeveloper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YTThirdPlatformManagerDeveloper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		699959A85BEF2F5DE57F03DE /* Pods-YTThirdPlatformManagerDeveloper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTThirdPlatformManagerDeveloper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YTThirdPlatformManagerDeveloper/Pods-YTThirdPlatformManagerDeveloper.debug.xcconfig"; sourceTree = "<group>"; };
+		9C1FD15B1FA494B8009F10D2 /* UIImage+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Util.m"; sourceTree = "<group>"; };
+		9C1FD15C1FA494B8009F10D2 /* UIImage+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Util.h"; sourceTree = "<group>"; };
+		9C1FD15E1FA496D9009F10D2 /* NSData+NSJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+NSJSON.h"; sourceTree = "<group>"; };
+		9C1FD15F1FA496DA009F10D2 /* NSData+NSJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+NSJSON.m"; sourceTree = "<group>"; };
+		9C1FD1611FA49740009F10D2 /* NetworkRequestUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkRequestUtil.h; sourceTree = "<group>"; };
+		9C1FD1621FA49740009F10D2 /* NetworkRequestUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkRequestUtil.m; sourceTree = "<group>"; };
+		9C1FD1641FA4989E009F10D2 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		9C1FD1671FA4C011009F10D2 /* BaseTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTestViewController.h; sourceTree = "<group>"; };
+		9C1FD1681FA4C011009F10D2 /* BaseTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTestViewController.m; sourceTree = "<group>"; };
+		9C1FD16C1FA55536009F10D2 /* PTThirdPlatformConfigConstTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTThirdPlatformConfigConstTemplate.h; sourceTree = "<group>"; };
+		9C1FD1971FA555A1009F10D2 /* YTThirdPlatformManagerDeveloper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTThirdPlatformManagerDeveloper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C3461CB1FA976A600D1616E /* PTThirdPlatformConfigConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTThirdPlatformConfigConst.h; sourceTree = "<group>"; };
+		9C3461CC1FA9770400D1616E /* YTThirdPlatformManagerDeveloper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YTThirdPlatformManagerDeveloper-Info.plist"; sourceTree = "<group>"; };
+		9C3742AA1FA370EF0086E874 /* YTThirdPlatformManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTThirdPlatformManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C3742AE1FA370F00086E874 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C3742B01FA370F00086E874 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9C3742B11FA370F00086E874 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9C3742B31FA370F00086E874 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9C3742B41FA370F00086E874 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9C3742B71FA370F00086E874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C3742B91FA370F00086E874 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C3742BC1FA370F00086E874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C3742BE1FA370F00086E874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C3742E21FA371160086E874 /* PTAlipayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTAlipayManager.h; sourceTree = "<group>"; };
+		9C3742E31FA371160086E874 /* PTAlipayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTAlipayManager.m; sourceTree = "<group>"; };
+		9C3742E41FA371160086E874 /* PTAlipayRequestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTAlipayRequestHandler.h; sourceTree = "<group>"; };
+		9C3742E51FA371160086E874 /* PTAlipayRequestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTAlipayRequestHandler.m; sourceTree = "<group>"; };
+		9C3742E61FA371160086E874 /* PTAlipayRespManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTAlipayRespManager.h; sourceTree = "<group>"; };
+		9C3742E71FA371160086E874 /* PTAlipayRespManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTAlipayRespManager.m; sourceTree = "<group>"; };
+		9C3742E81FA371160086E874 /* PTAbsThirdPlatformManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTAbsThirdPlatformManager.h; sourceTree = "<group>"; };
+		9C3742E91FA371160086E874 /* PTAbsThirdPlatformRequestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTAbsThirdPlatformRequestHandler.h; sourceTree = "<group>"; };
+		9C3742EA1FA371160086E874 /* PTAbsThirdPlatformRespManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTAbsThirdPlatformRespManager.h; sourceTree = "<group>"; };
+		9C3742EB1FA371160086E874 /* PTBaseThirdPlatformManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTBaseThirdPlatformManager.h; sourceTree = "<group>"; };
+		9C3742EC1FA371160086E874 /* PTBaseThirdPlatformManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTBaseThirdPlatformManager.m; sourceTree = "<group>"; };
+		9C3742ED1FA371160086E874 /* PTBaseThirdPlatformRespManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTBaseThirdPlatformRespManager.h; sourceTree = "<group>"; };
+		9C3742EE1FA371160086E874 /* PTBaseThirdPlatformRespManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTBaseThirdPlatformRespManager.m; sourceTree = "<group>"; };
+		9C3742EF1FA371160086E874 /* PTThirdPlatformConfigManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTThirdPlatformConfigManager.h; sourceTree = "<group>"; };
+		9C3742F01FA371160086E874 /* PTThirdPlatformConfigManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTThirdPlatformConfigManager.m; sourceTree = "<group>"; };
+		9C3742F11FA371160086E874 /* PTThirdPlatformDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTThirdPlatformDefine.h; sourceTree = "<group>"; };
+		9C3742F21FA371160086E874 /* PTThirdPlatformObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTThirdPlatformObject.h; sourceTree = "<group>"; };
+		9C3742F31FA371160086E874 /* PTThirdPlatformObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTThirdPlatformObject.m; sourceTree = "<group>"; };
+		9C3742F51FA371160086E874 /* PTTencentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTTencentManager.h; sourceTree = "<group>"; };
+		9C3742F61FA371160086E874 /* PTTencentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTTencentManager.m; sourceTree = "<group>"; };
+		9C3742F71FA371160086E874 /* PTTencentRequestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTTencentRequestHandler.h; sourceTree = "<group>"; };
+		9C3742F81FA371160086E874 /* PTTencentRequestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTTencentRequestHandler.m; sourceTree = "<group>"; };
+		9C3742F91FA371160086E874 /* PTTencentRespManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTTencentRespManager.h; sourceTree = "<group>"; };
+		9C3742FA1FA371160086E874 /* PTTencentRespManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTTencentRespManager.m; sourceTree = "<group>"; };
+		9C3742FC1FA371160086E874 /* PTWeiboManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTWeiboManager.h; sourceTree = "<group>"; };
+		9C3742FD1FA371160086E874 /* PTWeiboManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTWeiboManager.m; sourceTree = "<group>"; };
+		9C3742FE1FA371160086E874 /* PTWeiboRequestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTWeiboRequestHandler.h; sourceTree = "<group>"; };
+		9C3742FF1FA371160086E874 /* PTWeiboRequestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTWeiboRequestHandler.m; sourceTree = "<group>"; };
+		9C3743001FA371160086E874 /* PTWeiboRespManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTWeiboRespManager.h; sourceTree = "<group>"; };
+		9C3743011FA371160086E874 /* PTWeiboRespManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTWeiboRespManager.m; sourceTree = "<group>"; };
+		9C3743031FA371160086E874 /* PTWXManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTWXManager.h; sourceTree = "<group>"; };
+		9C3743041FA371160086E874 /* PTWXManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTWXManager.m; sourceTree = "<group>"; };
+		9C3743051FA371160086E874 /* PTWXRequestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTWXRequestHandler.h; sourceTree = "<group>"; };
+		9C3743061FA371160086E874 /* PTWXRequestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTWXRequestHandler.m; sourceTree = "<group>"; };
+		9C3743071FA371160086E874 /* PTWXRespManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTWXRespManager.h; sourceTree = "<group>"; };
+		9C3743081FA371160086E874 /* PTWXRespManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTWXRespManager.m; sourceTree = "<group>"; };
+		9C37431B1FA372200086E874 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		9C37431C1FA372200086E874 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		9C3743231FA372200086E874 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		9CB654271FA49251002A6EBF /* UtilMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilMacro.h; sourceTree = "<group>"; };
+		9CB654291FA492EE002A6EBF /* PTOrderModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTOrderModel.h; sourceTree = "<group>"; };
+		9CB6542A1FA492EE002A6EBF /* PTOrderModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTOrderModel.m; sourceTree = "<group>"; };
+		B397C4A6F5D2E88F15D49222 /* libPods-YTThirdPlatformManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YTThirdPlatformManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B831437AD6ECD9FEF12E90F5 /* Pods-YTThirdPlatformManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTThirdPlatformManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-YTThirdPlatformManager/Pods-YTThirdPlatformManager.release.xcconfig"; sourceTree = "<group>"; };
+		DE011C11E3A98CF0F75E1A67 /* Pods-YTThirdPlatformManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTThirdPlatformManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YTThirdPlatformManager/Pods-YTThirdPlatformManager.debug.xcconfig"; sourceTree = "<group>"; };
+		FF2803C04C652B91CD42A902 /* Pods-YTThirdPlatformManagerDeveloper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTThirdPlatformManagerDeveloper.release.xcconfig"; path = "Pods/Target Support Files/Pods-YTThirdPlatformManagerDeveloper/Pods-YTThirdPlatformManagerDeveloper.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C1FD1881FA555A1009F10D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C1FD1891FA555A1009F10D2 /* CoreMotion.framework in Frameworks */,
+				9C1FD18B1FA555A1009F10D2 /* TencentOpenAPI.framework in Frameworks */,
+				9C1FD18C1FA555A1009F10D2 /* AlipaySDK.framework in Frameworks */,
+				CF4E7703F4B911938A4FDCB6 /* libPods-YTThirdPlatformManagerDeveloper.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C3742A71FA370EF0086E874 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C1FD1651FA4989E009F10D2 /* CoreMotion.framework in Frameworks */,
+				6974ECAD28D19CC7024FA6F0 /* libPods-YTThirdPlatformManager.a in Frameworks */,
+				9C3743271FA372200086E874 /* TencentOpenAPI.framework in Frameworks */,
+				9C3743251FA372200086E874 /* AlipaySDK.framework in Frameworks */,
+				85F1090D5865B0A9602FDE6C /* libPods-YTThirdPlatformManager.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E2A480DD726F7934BF8755D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE011C11E3A98CF0F75E1A67 /* Pods-YTThirdPlatformManager.debug.xcconfig */,
+				B831437AD6ECD9FEF12E90F5 /* Pods-YTThirdPlatformManager.release.xcconfig */,
+				699959A85BEF2F5DE57F03DE /* Pods-YTThirdPlatformManagerDeveloper.debug.xcconfig */,
+				FF2803C04C652B91CD42A902 /* Pods-YTThirdPlatformManagerDeveloper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		265635B6273822F49C82E7C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C1FD1641FA4989E009F10D2 /* CoreMotion.framework */,
+				B397C4A6F5D2E88F15D49222 /* libPods-YTThirdPlatformManager.a */,
+				35C990F1E0096242C755777E /* libPods-YTThirdPlatformManagerDeveloper.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C1FD1661FA4C011009F10D2 /* TestLibs */ = {
+			isa = PBXGroup;
+			children = (
+				9C1FD1671FA4C011009F10D2 /* BaseTestViewController.h */,
+				9C1FD1681FA4C011009F10D2 /* BaseTestViewController.m */,
+			);
+			path = TestLibs;
+			sourceTree = "<group>";
+		};
+		9C3742A11FA370EF0086E874 = {
+			isa = PBXGroup;
+			children = (
+				9C3743191FA372200086E874 /* Vender */,
+				9C3742AC1FA370F00086E874 /* YTThirdPlatformManager */,
+				9C3742AB1FA370EF0086E874 /* Products */,
+				0E2A480DD726F7934BF8755D /* Pods */,
+				265635B6273822F49C82E7C8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9C3742AB1FA370EF0086E874 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C3742AA1FA370EF0086E874 /* YTThirdPlatformManager.app */,
+				9C1FD1971FA555A1009F10D2 /* YTThirdPlatformManagerDeveloper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C3742AC1FA370F00086E874 /* YTThirdPlatformManager */ = {
+			isa = PBXGroup;
+			children = (
+				9C1FD1661FA4C011009F10D2 /* TestLibs */,
+				9C3742E01FA371160086E874 /* PTThirdPlatformManagerRefactor */,
+				9C3742B01FA370F00086E874 /* AppDelegate.h */,
+				9C3742B11FA370F00086E874 /* AppDelegate.m */,
+				9C3742B31FA370F00086E874 /* ViewController.h */,
+				9C3742B41FA370F00086E874 /* ViewController.m */,
+				9C3742B61FA370F00086E874 /* Main.storyboard */,
+				9C3742B91FA370F00086E874 /* Assets.xcassets */,
+				9C3742BB1FA370F00086E874 /* LaunchScreen.storyboard */,
+				9C3742BE1FA370F00086E874 /* Info.plist */,
+				9C3461CC1FA9770400D1616E /* YTThirdPlatformManagerDeveloper-Info.plist */,
+				9C3742AD1FA370F00086E874 /* Supporting Files */,
+			);
+			path = YTThirdPlatformManager;
+			sourceTree = "<group>";
+		};
+		9C3742AD1FA370F00086E874 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C3742AE1FA370F00086E874 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C3742E01FA371160086E874 /* PTThirdPlatformManagerRefactor */ = {
+			isa = PBXGroup;
+			children = (
+				9CB654281FA492EE002A6EBF /* Model */,
+				9CB654261FA49169002A6EBF /* util */,
+				9C3461CB1FA976A600D1616E /* PTThirdPlatformConfigConst.h */,
+				9C1FD16C1FA55536009F10D2 /* PTThirdPlatformConfigConstTemplate.h */,
+				9C3742F11FA371160086E874 /* PTThirdPlatformDefine.h */,
+				9C3742F21FA371160086E874 /* PTThirdPlatformObject.h */,
+				9C3742F31FA371160086E874 /* PTThirdPlatformObject.m */,
+				9C3742E81FA371160086E874 /* PTAbsThirdPlatformManager.h */,
+				9C3742E91FA371160086E874 /* PTAbsThirdPlatformRequestHandler.h */,
+				9C3742EA1FA371160086E874 /* PTAbsThirdPlatformRespManager.h */,
+				9C3742EB1FA371160086E874 /* PTBaseThirdPlatformManager.h */,
+				9C3742EC1FA371160086E874 /* PTBaseThirdPlatformManager.m */,
+				9C3742ED1FA371160086E874 /* PTBaseThirdPlatformRespManager.h */,
+				9C3742EE1FA371160086E874 /* PTBaseThirdPlatformRespManager.m */,
+				9C3742EF1FA371160086E874 /* PTThirdPlatformConfigManager.h */,
+				9C3742F01FA371160086E874 /* PTThirdPlatformConfigManager.m */,
+				9C3742F41FA371160086E874 /* TencentManager */,
+				9C3742FB1FA371160086E874 /* WeiboManager */,
+				9C3743021FA371160086E874 /* WXManager */,
+				9C3742E11FA371160086E874 /* AlipayManager */,
+			);
+			path = PTThirdPlatformManagerRefactor;
+			sourceTree = "<group>";
+		};
+		9C3742E11FA371160086E874 /* AlipayManager */ = {
+			isa = PBXGroup;
+			children = (
+				9C3742E21FA371160086E874 /* PTAlipayManager.h */,
+				9C3742E31FA371160086E874 /* PTAlipayManager.m */,
+				9C3742E41FA371160086E874 /* PTAlipayRequestHandler.h */,
+				9C3742E51FA371160086E874 /* PTAlipayRequestHandler.m */,
+				9C3742E61FA371160086E874 /* PTAlipayRespManager.h */,
+				9C3742E71FA371160086E874 /* PTAlipayRespManager.m */,
+			);
+			path = AlipayManager;
+			sourceTree = "<group>";
+		};
+		9C3742F41FA371160086E874 /* TencentManager */ = {
+			isa = PBXGroup;
+			children = (
+				9C3742F51FA371160086E874 /* PTTencentManager.h */,
+				9C3742F61FA371160086E874 /* PTTencentManager.m */,
+				9C3742F71FA371160086E874 /* PTTencentRequestHandler.h */,
+				9C3742F81FA371160086E874 /* PTTencentRequestHandler.m */,
+				9C3742F91FA371160086E874 /* PTTencentRespManager.h */,
+				9C3742FA1FA371160086E874 /* PTTencentRespManager.m */,
+			);
+			path = TencentManager;
+			sourceTree = "<group>";
+		};
+		9C3742FB1FA371160086E874 /* WeiboManager */ = {
+			isa = PBXGroup;
+			children = (
+				9C3742FC1FA371160086E874 /* PTWeiboManager.h */,
+				9C3742FD1FA371160086E874 /* PTWeiboManager.m */,
+				9C3742FE1FA371160086E874 /* PTWeiboRequestHandler.h */,
+				9C3742FF1FA371160086E874 /* PTWeiboRequestHandler.m */,
+				9C3743001FA371160086E874 /* PTWeiboRespManager.h */,
+				9C3743011FA371160086E874 /* PTWeiboRespManager.m */,
+			);
+			path = WeiboManager;
+			sourceTree = "<group>";
+		};
+		9C3743021FA371160086E874 /* WXManager */ = {
+			isa = PBXGroup;
+			children = (
+				9C3743031FA371160086E874 /* PTWXManager.h */,
+				9C3743041FA371160086E874 /* PTWXManager.m */,
+				9C3743051FA371160086E874 /* PTWXRequestHandler.h */,
+				9C3743061FA371160086E874 /* PTWXRequestHandler.m */,
+				9C3743071FA371160086E874 /* PTWXRespManager.h */,
+				9C3743081FA371160086E874 /* PTWXRespManager.m */,
+			);
+			path = WXManager;
+			sourceTree = "<group>";
+		};
+		9C3743191FA372200086E874 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				9C37431A1FA372200086E874 /* AlipaySDK */,
+				9C3743221FA372200086E874 /* TencentOpenSDK */,
+			);
+			name = Vender;
+			path = YTThirdPlatformManager/Vender;
+			sourceTree = "<group>";
+		};
+		9C37431A1FA372200086E874 /* AlipaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				9C37431B1FA372200086E874 /* AlipaySDK.bundle */,
+				9C37431C1FA372200086E874 /* AlipaySDK.framework */,
+			);
+			path = AlipaySDK;
+			sourceTree = "<group>";
+		};
+		9C3743221FA372200086E874 /* TencentOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				9C3743231FA372200086E874 /* TencentOpenAPI.framework */,
+			);
+			path = TencentOpenSDK;
+			sourceTree = "<group>";
+		};
+		9CB654261FA49169002A6EBF /* util */ = {
+			isa = PBXGroup;
+			children = (
+				9C1FD15E1FA496D9009F10D2 /* NSData+NSJSON.h */,
+				9C1FD15F1FA496DA009F10D2 /* NSData+NSJSON.m */,
+				9C1FD15C1FA494B8009F10D2 /* UIImage+Util.h */,
+				9C1FD15B1FA494B8009F10D2 /* UIImage+Util.m */,
+				9CB654271FA49251002A6EBF /* UtilMacro.h */,
+				9C1FD1611FA49740009F10D2 /* NetworkRequestUtil.h */,
+				9C1FD1621FA49740009F10D2 /* NetworkRequestUtil.m */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		9CB654281FA492EE002A6EBF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9CB654291FA492EE002A6EBF /* PTOrderModel.h */,
+				9CB6542A1FA492EE002A6EBF /* PTOrderModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C1FD16D1FA555A1009F10D2 /* YTThirdPlatformManagerDeveloper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C1FD1941FA555A1009F10D2 /* Build configuration list for PBXNativeTarget "YTThirdPlatformManagerDeveloper" */;
+			buildPhases = (
+				797CD5DCC716F7AF621534D0 /* [CP] Check Pods Manifest.lock */,
+				9C1FD16F1FA555A1009F10D2 /* Sources */,
+				9C1FD1881FA555A1009F10D2 /* Frameworks */,
+				9C1FD18D1FA555A1009F10D2 /* Resources */,
+				C099B799EF583D714ED06EDB /* [CP] Embed Pods Frameworks */,
+				42486CF8AB55216A72D870AF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YTThirdPlatformManagerDeveloper;
+			productName = YTThirdPlatformManager;
+			productReference = 9C1FD1971FA555A1009F10D2 /* YTThirdPlatformManagerDeveloper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C3742A91FA370EF0086E874 /* YTThirdPlatformManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C3742D71FA370F00086E874 /* Build configuration list for PBXNativeTarget "YTThirdPlatformManager" */;
+			buildPhases = (
+				3F870880B279AE13D5941472 /* [CP] Check Pods Manifest.lock */,
+				9C3742A61FA370EF0086E874 /* Sources */,
+				9C3742A71FA370EF0086E874 /* Frameworks */,
+				9C3742A81FA370EF0086E874 /* Resources */,
+				88D38DBA6895EBDE02A126E0 /* [CP] Embed Pods Frameworks */,
+				5A4B2BD1C2659762F74476D1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YTThirdPlatformManager;
+			productName = YTThirdPlatformManager;
+			productReference = 9C3742AA1FA370EF0086E874 /* YTThirdPlatformManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C3742A21FA370EF0086E874 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = aron;
+				TargetAttributes = {
+					9C3742A91FA370EF0086E874 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2Y3Z3T4NVH;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9C3742A51FA370EF0086E874 /* Build configuration list for PBXProject "YTThirdPlatformManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C3742A11FA370EF0086E874;
+			productRefGroup = 9C3742AB1FA370EF0086E874 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C3742A91FA370EF0086E874 /* YTThirdPlatformManager */,
+				9C1FD16D1FA555A1009F10D2 /* YTThirdPlatformManagerDeveloper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C1FD18D1FA555A1009F10D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C1FD18E1FA555A1009F10D2 /* LaunchScreen.storyboard in Resources */,
+				9C3461CD1FA9770400D1616E /* YTThirdPlatformManagerDeveloper-Info.plist in Resources */,
+				9C1FD18F1FA555A1009F10D2 /* Assets.xcassets in Resources */,
+				9C1FD1901FA555A1009F10D2 /* AlipaySDK.bundle in Resources */,
+				9C1FD1911FA555A1009F10D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C3742A81FA370EF0086E874 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C3742BD1FA370F00086E874 /* LaunchScreen.storyboard in Resources */,
+				9C3742BA1FA370F00086E874 /* Assets.xcassets in Resources */,
+				9C3743241FA372200086E874 /* AlipaySDK.bundle in Resources */,
+				9C3742B81FA370F00086E874 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F870880B279AE13D5941472 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		42486CF8AB55216A72D870AF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YTThirdPlatformManagerDeveloper/Pods-YTThirdPlatformManagerDeveloper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A4B2BD1C2659762F74476D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YTThirdPlatformManager/Pods-YTThirdPlatformManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		797CD5DCC716F7AF621534D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		88D38DBA6895EBDE02A126E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YTThirdPlatformManager/Pods-YTThirdPlatformManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C099B799EF583D714ED06EDB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YTThirdPlatformManagerDeveloper/Pods-YTThirdPlatformManagerDeveloper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C1FD16F1FA555A1009F10D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C1FD1701FA555A1009F10D2 /* NetworkRequestUtil.m in Sources */,
+				9C1FD1711FA555A1009F10D2 /* PTWXManager.m in Sources */,
+				9C1FD1721FA555A1009F10D2 /* PTTencentManager.m in Sources */,
+				9C1FD1731FA555A1009F10D2 /* ViewController.m in Sources */,
+				9C1FD1741FA555A1009F10D2 /* PTWeiboManager.m in Sources */,
+				9C1FD1751FA555A1009F10D2 /* BaseTestViewController.m in Sources */,
+				9C1FD1761FA555A1009F10D2 /* PTWeiboRequestHandler.m in Sources */,
+				9C1FD1771FA555A1009F10D2 /* PTTencentRespManager.m in Sources */,
+				9C1FD1781FA555A1009F10D2 /* PTAlipayRespManager.m in Sources */,
+				9C1FD1791FA555A1009F10D2 /* UIImage+Util.m in Sources */,
+				9C1FD17A1FA555A1009F10D2 /* PTWXRequestHandler.m in Sources */,
+				9C1FD17B1FA555A1009F10D2 /* AppDelegate.m in Sources */,
+				9C1FD17C1FA555A1009F10D2 /* PTBaseThirdPlatformManager.m in Sources */,
+				9C1FD17D1FA555A1009F10D2 /* main.m in Sources */,
+				9C1FD17E1FA555A1009F10D2 /* PTWXRespManager.m in Sources */,
+				9C1FD17F1FA555A1009F10D2 /* PTAlipayManager.m in Sources */,
+				9C1FD1801FA555A1009F10D2 /* PTThirdPlatformConfigManager.m in Sources */,
+				9C1FD1811FA555A1009F10D2 /* PTTencentRequestHandler.m in Sources */,
+				9C1FD1821FA555A1009F10D2 /* PTThirdPlatformObject.m in Sources */,
+				9C1FD1831FA555A1009F10D2 /* PTBaseThirdPlatformRespManager.m in Sources */,
+				9C1FD1841FA555A1009F10D2 /* PTOrderModel.m in Sources */,
+				9C1FD1851FA555A1009F10D2 /* NSData+NSJSON.m in Sources */,
+				9C1FD1861FA555A1009F10D2 /* PTWeiboRespManager.m in Sources */,
+				9C1FD1871FA555A1009F10D2 /* PTAlipayRequestHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C3742A61FA370EF0086E874 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C1FD1631FA49740009F10D2 /* NetworkRequestUtil.m in Sources */,
+				9C3743161FA371160086E874 /* PTWXManager.m in Sources */,
+				9C3743101FA371160086E874 /* PTTencentManager.m in Sources */,
+				9C3742B51FA370F00086E874 /* ViewController.m in Sources */,
+				9C3743131FA371160086E874 /* PTWeiboManager.m in Sources */,
+				9C1FD1691FA4C16E009F10D2 /* BaseTestViewController.m in Sources */,
+				9C3743141FA371160086E874 /* PTWeiboRequestHandler.m in Sources */,
+				9C3743121FA371160086E874 /* PTTencentRespManager.m in Sources */,
+				9C37430B1FA371160086E874 /* PTAlipayRespManager.m in Sources */,
+				9C1FD15D1FA494B8009F10D2 /* UIImage+Util.m in Sources */,
+				9C3743171FA371160086E874 /* PTWXRequestHandler.m in Sources */,
+				9C3742B21FA370F00086E874 /* AppDelegate.m in Sources */,
+				9C37430C1FA371160086E874 /* PTBaseThirdPlatformManager.m in Sources */,
+				9C3742AF1FA370F00086E874 /* main.m in Sources */,
+				9C3743181FA371160086E874 /* PTWXRespManager.m in Sources */,
+				9C3743091FA371160086E874 /* PTAlipayManager.m in Sources */,
+				9C37430E1FA371160086E874 /* PTThirdPlatformConfigManager.m in Sources */,
+				9C3743111FA371160086E874 /* PTTencentRequestHandler.m in Sources */,
+				9C37430F1FA371160086E874 /* PTThirdPlatformObject.m in Sources */,
+				9C37430D1FA371160086E874 /* PTBaseThirdPlatformRespManager.m in Sources */,
+				9C1FD16A1FA54D76009F10D2 /* PTOrderModel.m in Sources */,
+				9C1FD1601FA496DA009F10D2 /* NSData+NSJSON.m in Sources */,
+				9C3743151FA371160086E874 /* PTWeiboRespManager.m in Sources */,
+				9C37430A1FA371160086E874 /* PTAlipayRequestHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9C3742B61FA370F00086E874 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C3742B71FA370F00086E874 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C3742BB1FA370F00086E874 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C3742BC1FA370F00086E874 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C1FD1951FA555A1009F10D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 699959A85BEF2F5DE57F03DE /* Pods-YTThirdPlatformManagerDeveloper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YTThirdPlatformManager/Vender/AlipaySDK",
+					"$(PROJECT_DIR)/YTThirdPlatformManager/Vender/TencentOpenSDK",
+				);
+				INFOPLIST_EXPAND_BUILD_SETTINGS = YES;
+				INFOPLIST_FILE = "YTThirdPlatformManager/YTThirdPlatformManagerDeveloper-info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingot.Plush;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9C1FD1961FA555A1009F10D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF2803C04C652B91CD42A902 /* Pods-YTThirdPlatformManagerDeveloper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YTThirdPlatformManager/Vender/AlipaySDK",
+					"$(PROJECT_DIR)/YTThirdPlatformManager/Vender/TencentOpenSDK",
+				);
+				INFOPLIST_EXPAND_BUILD_SETTINGS = YES;
+				INFOPLIST_FILE = "YTThirdPlatformManager/YTThirdPlatformManagerDeveloper-info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingot.Plush;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9C3742D51FA370F00086E874 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C3742D61FA370F00086E874 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C3742D81FA370F00086E874 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE011C11E3A98CF0F75E1A67 /* Pods-YTThirdPlatformManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2Y3Z3T4NVH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YTThirdPlatformManager/Vender/AlipaySDK",
+					"$(PROJECT_DIR)/YTThirdPlatformManager/Vender/TencentOpenSDK",
+				);
+				INFOPLIST_FILE = YTThirdPlatformManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingot.Plush;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9C3742D91FA370F00086E874 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B831437AD6ECD9FEF12E90F5 /* Pods-YTThirdPlatformManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2Y3Z3T4NVH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YTThirdPlatformManager/Vender/AlipaySDK",
+					"$(PROJECT_DIR)/YTThirdPlatformManager/Vender/TencentOpenSDK",
+				);
+				INFOPLIST_FILE = YTThirdPlatformManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingot.Plush;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C1FD1941FA555A1009F10D2 /* Build configuration list for PBXNativeTarget "YTThirdPlatformManagerDeveloper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C1FD1951FA555A1009F10D2 /* Debug */,
+				9C1FD1961FA555A1009F10D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C3742A51FA370EF0086E874 /* Build configuration list for PBXProject "YTThirdPlatformManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C3742D51FA370F00086E874 /* Debug */,
+				9C3742D61FA370F00086E874 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C3742D71FA370F00086E874 /* Build configuration list for PBXNativeTarget "YTThirdPlatformManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C3742D81FA370F00086E874 /* Debug */,
+				9C3742D91FA370F00086E874 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C3742A21FA370EF0086E874 /* Project object */;
+}

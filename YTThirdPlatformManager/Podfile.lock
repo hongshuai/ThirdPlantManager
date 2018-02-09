@@ -1,0 +1,20 @@
+PODS:
+  - SDWebImage (4.1.0):
+    - SDWebImage/Core (= 4.1.0)
+  - SDWebImage/Core (4.1.0)
+  - WechatOpenSDK (1.7.9)
+  - WeiboSDK (3.1.3)
+
+DEPENDENCIES:
+  - SDWebImage
+  - WechatOpenSDK
+  - WeiboSDK
+
+SPEC CHECKSUMS:
+  SDWebImage: 0e435c14e402a6730315a0fb79f95e68654d55a4
+  WechatOpenSDK: 1fe7e3b07db860d6a936c3ff4a5aba6b890958d9
+  WeiboSDK: acb067053668102cf07d01aa7604350162c2e466
+
+PODFILE CHECKSUM: 2828b9cb185b098f26aa3eacc37759186b86bf3b
+
+COCOAPODS: 1.2.0.beta.1
